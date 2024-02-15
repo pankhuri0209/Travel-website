@@ -1,0 +1,9 @@
+.button-basic {
+  padding: 0.5rem 1rem;
+  color: $color-default;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease-in-out;
+}

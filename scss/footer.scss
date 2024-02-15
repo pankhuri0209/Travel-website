@@ -1,0 +1,82 @@
+/* footer section css */
+.footer {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center;
+  gap: 65px;
+  position: relative;
+  margin-bottom: 30px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 50%; /* Align to the center */
+    @include transformX(-50%);
+    width: sum(20%, 20%, 20%, 20%); /* Reduce the width of the line */
+    height: 1px; /* Adjust thickness as needed */
+    background-color: rgb(190, 189, 189); /* Adjust color as needed */
+  }
+}
+
+.content {
+  width: sum(20%, 5%); /* Each content div takes 25% width */
+  @include border(#ccc, 1px);
+  padding: 20px;
+  margin: 5px;
+}
+.footer-moto {
+  font-weight: 400;
+  font-size: 15px;
+  color: $color-dark-gray;
+  font-family: $font-family-container;
+}
+
+.heading-p {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.heading-p1 {
+  margin-bottom: 9px;
+}
+
+.action_btn_4 {
+  background-color: $orange-theme-color;
+  color: $color-default;
+  @include border($color-default, 20px);
+  @extend .button-basic;
+  width: sum(20px, 20px, 20px, 20px, 20px, 10px);
+
+  height: 40px; /* Set desired height */
+  font-size: 14px; /* Optional: Set desired font size */
+
+  &:hover {
+    scale: 1.05;
+    color: $color-default;
+  }
+
+  &:active {
+    scale: 0.95;
+  }
+}
+.email_class {
+  width: 100px+100px;
+  height: sum(20px, 20px);
+  font-size: 16px;
+}
+/* copyrights section css */
+.copyright {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  font-weight: 500;
+  padding: 10px;
+}
+#name,
+#duration,
+#subscribe-button,
+#select-option {
+  width: 100px+60px; /* Set desired width */
+  height: 40px; /* Set desired height */
+  font-size: 10px + 6px; /* Optional: Set desired font size */
+}

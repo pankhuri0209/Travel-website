@@ -1,0 +1,24 @@
+@mixin border($border-color, $radius) {
+  border: 1px solid $border-color;
+  border-radius: $radius;
+}
+
+@mixin transform($property1, $property2) {
+  transform: translate($property1, $property2);
+}
+
+@mixin transformY($property) {
+  transform: translateY($property);
+}
+@mixin transformX($property) {
+  transform: translateX($property);
+}
+@mixin next-prev-colors($next-option: true) {
+  @if $next-option {
+    background-color: $color-dark-gray;
+    color: $default-black;
+  } @else {
+    background-color: $next-bg-color;
+    color: $color-default;
+  }
+}

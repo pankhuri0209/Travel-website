@@ -1,0 +1,54 @@
+/* explore section css */
+.explore-container {
+  display: flex;
+  /* gap: 5px; */
+  align-items: center;
+  justify-content: center;
+  width: sum(50%, 50%);
+  flex-direction: row;
+  text-align: center;
+}
+
+.explore-nature {
+  width: sum(20%, 20%, 10%);
+}
+
+.explore-cities {
+  width: sum(20%, 20%, 10%);
+}
+
+.centered {
+  position: relative;
+  top: sum(20%, 20%, 10%);
+  left: sum(20%, 20%, 10%);
+  @include transform(-50%, -50%);
+  margin: -175px 0 0 -25px;
+}
+
+.promo {
+  color: $color-default;
+  font-size: 10px + 8px;
+  font-weight: bolder;
+}
+
+.nature-title {
+  color: $color-default;
+  font-size: 40px - 2px;
+  font-weight: 900;
+  font-family: $font-family-theme;
+}
+
+.action_btn_1 {
+  background-color: $transparent-color;
+  color: $color-default;
+  @include border($color-default, 20px);
+  @extend .button-basic;
+  &:hover {
+    scale: 1.05;
+    color: $color-default;
+  }
+
+  &:active {
+    scale: 0.95;
+  }
+}

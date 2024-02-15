@@ -1,0 +1,51 @@
+.fast-easy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .category-headings {
+    text-align: $text-align-left;
+    font-weight: 800;
+    font-size: medium;
+    color: $orange-theme-color;
+    font-family: $font-family-lato;
+  }
+
+  & .best-services {
+    text-align: $text-align-left;
+    font-weight: bolder;
+    font-size: 30px;
+    color: $default-black;
+    font-family: $font-family-theme;
+  }
+}
+
+.small-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+  & .heading {
+    font-weight: bold;
+    font-size: 15px;
+    color: $default-black;
+    font-family: $font-family-container;
+    text-align: $text-align-left;
+  }
+}
+.content-destination {
+  font-weight: 300;
+  font-size: 15px;
+  color: $default-black;
+  font-family: $font-family-container;
+  text-align: $text-align-left;
+}
+
+.content-tours {
+  font-weight: 560;
+  font-size: 15px;
+  color: $color-dark-gray;
+  font-family: $font-family-container;
+  margin-bottom: 5%;
+  text-align: $text-align-left;
+}

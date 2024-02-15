@@ -1,0 +1,11 @@
+/* airlines logo section css */
+.airlines {
+  display: flex;
+  justify-content: space-between; /* Distribute space between images */
+  margin: 0 100px 20px; /* Side margins */
+  margin-top: 15%;
+
+  & img {
+    max-width: 50% + 50%; /* Ensure images don't exceed container width */
+  }
+}

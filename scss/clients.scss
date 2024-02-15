@@ -1,0 +1,61 @@
+/* clients msg section css */
+.clients-banner {
+  background: rgb(240, 240, 240);
+  clear: both;
+  width: sum(50%, 50%);
+  height: 25%;
+  display: block; /* Ensures the div starts on a new line */
+}
+
+.clients-msg {
+  background: $color-default;
+  width: sum(20%, 20%);
+  justify-content: center;
+  margin: auto;
+}
+
+.client-msg-p {
+  padding: 20px + 5px;
+  text-align: center;
+}
+
+.client-name {
+  /* padding: 40px; */
+  text-align: center;
+  font-weight: 800;
+}
+
+.client-face {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.clients-msg::before {
+  /* content: url('images/symbols/left-arrow.png');  */
+
+  background: url("../../../Assignment3/assignment-3-pankhuri-neu/images/symbols/left-arrow.png")
+    no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  @include transformY(-50%);
+}
+.previous {
+  @include next-prev-colors($next-option: true);
+  padding: 8px 16px;
+  position: absolute;
+  left: 300px + 60px;
+}
+
+.next {
+  @include next-prev-colors($next-option: false);
+  padding: 8px 16px;
+  position: absolute;
+  right: 350px + 8px;
+}
+
+.round {
+  border-radius: 50%;
+}
