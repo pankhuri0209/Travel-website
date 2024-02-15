@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <base href="/" />
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Travel with us</title>
+      <link rel="stylesheet" href="dist/main.css" type="text/css" />
+      <meta name="description" content="Travelling made easy" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+      <script src="js/app.js"></script>
+   </head>
+   
+   <body>
+
+    <!--Navigation bar-->
+      </header>
+      <div class="navbar">
+         <div class="logo"><a href="#"><img
+            src="https://img.freepik.com/premium-vector/travel-time-logo-template-design_20029-667.jpg"
+            alt="Official logo"
+            width="150px"
+            height="150px"
+            /></a></div>
+         <ul class="links">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li class="services">
+               <a href="services">Services<i class="fa fa-caret-down"></i></a>
+               <ul class="dropdown-services">
+                  <li><a href="#">Honeymoon Packages</a></li>
+                  <li><a href="#">Tours Packages</a></li>
+                  <li><a href="#">Musical Events</a></li>
+                  <li><a href="#">Build Packages</a></li>
+                  <!-- Add more packages as needed -->
+               </ul>
+            </li>
+            <li ><a href="packages">Upcoming Packages</a>
+            </li>
+         </ul>
+         <a href="#" class="action_btn">Get in Touch</a>
+         <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+      </div>
+      <!-- <div class="dropdown_menu">
+         <li><a href="hero">Home</a></li>
+         <li><a href="about">About</a></li>
+         <li><a href="services">Services</a></li>
+         <li><a href="contact">Contact</a></li>
+         <li><a href="#" class="action_btn">Get Started</a></li>
+         </div> -->
+      </header>
+
+     <!-- end-->
+
+       <!--Landing (main) page-->
+
+      <main>
+         <section id="hero">
+            <!-- <img src="https://flyclipart.com/thumb2/orange-zig-zag-clip-art-424396.png"> -->
+            <p class="welcome-h1">
+               No matter where <br>you're going to, we'll <br>take you there
+            </p>
+            <form class="form-container">
+               <ul class="form-list">
+                  <li><input type="text" id="name" value="" placeholder="Where to?" ></li>
+                  <li>
+                     <select id="select-option" >
+                        <i class="fa fa-caret-down"></i>
+                        <option value="">--Travel Type--</option>
+                        <option value="name">Solo</option>
+                        <option value="email">Couple</option>
+                        <option value="email">Friends</option>
+                        <option value="email">Family</option>
+                     </select>
+                  </li>
+                  <li><input id="duration" type="date" name="duration" value="Duration"/></li>
+                  <li><input type="button" value="Submit" id="subscribe-button" class="action_btn"></li>
+               </ul>
+            </form>
+            <div id="live-info" >
+               <img src="images/icons/human_faces.png" id="human_faces" width="200" height="50" alt="live-info"/>
+               <p id="info"> 2500 people booked Tommorowland Event in last 24 hours.</p>
+            </div>
+         </section>
+      </main>
+
+      <!--end-->
+
+      <!--Travel Logo page-->
+      <div class="airlines">
+         <img
+            src="images/logos/emirates.jpg"
+            alt="emirates"
+            width="150"
+            height="150"
+            />
+         <!-- <picture
+            ><source srcset="images/logos/emirates.jpg" media="(max-width:600)"
+            /></picture> -->
+         <img
+            src="images/logos/trivago.jpg"
+            alt="trivago"
+            width="150"
+            height="150"
+            />
+         <!-- <picture
+            ><source srcset="images/logos/trivago.jpg" media="(max-width:600)"
+            /></picture> -->
+         <img
+            src="images/logos/airbnb.jpg"
+            alt="airbnb"
+            width="200"
+            height="120"
+            />
+         <!-- <picture
+            ><source srcset="images/logos/airbnb.jpg" media="(max-width:600)"
+            /></picture> -->
+         <img
+            src="images/logos/turkish.jpg"
+            alt="turkish"
+            width="150"
+            height="150"
+            />
+         <!-- <picture
+            ><source srcset="images/logos/turkish.jpg" media="(max-width:600)"
+            /></picture> -->
+         <img
+            src="images/logos/swiss.jpg"
+            alt="swiss"
+            width="150"
+            height="150"
+            />
+         <!-- <picture
+            ><source srcset="images/logos/swiss.jpg" media="(max-width:600)"
+            /></picture> -->
+      </div>
+
+      <!--end-->
+      <br>
+
+
+      <!--Services offered section-->
+      <div class="category_services">
+         <h1 class="category-headings">
+            <p   > CATEGORY </p>
+            <br>
+            <p face="" class="best-services" > We Offer Best Services </p>
+          
+         </h1>
+         <br><br>
+         <div class="service-cards">
+            <div class="guided_tours">
+               <img src="images/services/tours.png" class="service-images" width="80" height="80" />
+               <p class="best-services-tour" > Guided Tours </p>
+               <p class="content-services">
+                  sunt qui repellat saepe<br />
+                  quo velit aperiam id <br />
+                  aliquam placeeat
+               </p>
+            </div>
+            <div class="guided_tours">
+               <img src="images/services/flights.png" class="service-images"  width="80" height="80" />
+               <p class="best-services-tour" > Best Flight Options </p>
+               <p class="content-services">
+                  sunt qui repellat saepe<br />
+                  quo velit aperiam id <br />
+                  aliquam placeeat
+               </p>
+            </div>
+            <div class="guided_tours">
+               <img src="images/services/religious.png" class="service-images"  width="80" height="80" />
+               <p class="best-services-tour" > Religious Tours </p>
+               <p class="content-services">
+                  sunt qui repellat saepe<br />
+                  quo velit aperiam id <br />
+                  aliquam placeeat
+               </p>
+            </div>
+            <div class="guided_tours">
+               <img src="images/services/medical.png" class="service-images" width="80" height="80" />
+               <p class="best-services-tour" > Medical Insurance </p>
+               <p class="content-services">
+                  sunt qui repellat saepe<br />
+                  quo velit aperiam id <br />
+                  aliquam placeeat
+               </p>
+            </div>
+         </div>
+      </div>
+      <br><br><br>
+      <div class="honeymoon-container">
+         <img src="images/honeymoon/honeymoon.png" width="350" height="430" />
+         <div class="honeymoon-content">
+            <h1 class="category-headings">
+               <p   > HONEYMOON SPECIALS </p>
+               <p face="" class="best-services" > Our Romantic Tropical <br> Destinations </p>
+               <br>
+              
+               <p class="honeymoon-content-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                  Consequuntur ipsum, necessitatibus sequi iure, exercitationem <br>
+                  mollitia asperiores aliquam repudiandae ab numquam, modi et? <br>
+                  Molestias tempora omnis voluptatibus  
+               </p>
+            </h1>
+            <input type="button" value="View Packages" id="subscribe-button" class="action_btn">
+         </div>
+      </div>
+      <br><br><br>
+      <div class="fast-easy-container">
+         <h1 class="category-headings">
+            <p   > Fast & Easy </p>
+            <p face="" class="best-services" > Get Your Favourite <br> Resort Bookings </p>
+            <br>
+           
+            <div class="small-container">
+               <img src="images/logos/square.png" height="50" width="50" /><br />
+               <div>
+                  <p class="heading"> Choose Destination  </p>
+                  <p class="content-destination">
+                     sunt qui repellat saepe<br />
+                     quo velit aperiam id <br />
+                  </p>
+               </div>
+            </div>
+            <br><br>
+            <div class="small-container">
+               <img src="images/logos/orange.png" height="50" width="50" /><br />
+               <div>
+                  <p class="heading"> Check Availability </p>
+                  <p class="content-destination">
+                     sunt qui repellat saepe<br />
+                     quo velit aperiam id <br />
+                  </p>
+               </div>
+            </div>
+            <br><br>
+            <div class="small-container">
+               <img src="images/logos/car.png" height="50" width="50" /><br />
+               <div>
+                  <p class="heading"> Let's Go</p>
+                  <p class="content-destination">
+                     sunt qui repellat saepe<br />
+                     quo velit aperiam id <br />
+                  </p>
+               </div>
+            </div>
+         </h1>
+         <img src="images/fav_bookings/hawaii.png" height="380" width="450" />
+      </div>
+      <br>
+      <img src="images/banner/holiday.png " width="100%" height="45%" />
+      <br><br>
+      <div class="fast-easy-container">
+         <h1 class="category-headings">
+         <p   > PROMOTION </p>
+         <p face="" class="best-services" > We Provide You Best <br> Europe Sightseeing Tours </p>
+         <br>
+        
+         <div >
+            <p class="content-tours">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium, <br>
+               soluta assumenda commodi, voluptatem nostrum mollitia beatae nisi, possimus dolore <br>
+               laborum ad suscipit fugiat quisquam saepe consequuntur. Blanditiis atque sapiente <br>
+               iure repellendus facilis consequuntur aut officia illo dolorem. Neque sit soluta rerum, <br>
+               rem at consequatur inventore in dicta expedita doloribus eos repudiandae quae itaque earum <br>
+               ad consectetur porro, iusto eligendi natus sed exercitationem molestiae reprehenderit <br>
+            </p>
+            <input type="button" value="View Packages" id="subscribe-button" class="action_btn">
+            <br>
+            <img
+               src="images/places/clock_tower.png"
+               height="140"
+               width="140"
+               />&nbsp;&nbsp;
+            <img src="images/places/river.png" height="140" width="140" />&nbsp;&nbsp;
+            <img
+               src="images/places/building.png"
+               height="140"
+               width="140"
+               />&nbsp;&nbsp;
+            <img
+               src="images/places/paris_tower.png"
+               height="250"
+               width="250"
+               />&nbsp;&nbsp;
+         </div>
+         <br><br>
+      </div>
+      <br><br>
+      <div class="explore-container">
+         <div class="explore-nature">
+            <img src="https://images.unsplash.com/photo-1480497490787-505ec076689f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D" width="100%" height="280" />
+            <div class="centered">
+               <p class="promo">PROMOTION</p>
+               <p class="nature-title">Explore Nature</p>
+               <br><input type="button" value="View Packages" id="subscribe-button" class="action_btn_1">
+            </div>
+         </div>
+         <div class="explore-nature">
+            <img src="https://wallpapers.com/images/hd/new-york-street-bxwednq870vzgc6m.jpg" width="100%" height="280" />
+            <div class="centered">
+               <p class="promo">PROMOTION</p>
+               <p class="nature-title">Explore Cities</p>
+               <br><input type="button" value="View Packages" id="subscribe-button" class="action_btn_1">
+            </div>
+         </div>
+      </div>
+      <br><br><br><br>
+
+      <!--end-->
+      <!--Tending package section-->
+      <div class="trending-packages">
+      <h1 class="category-headings">
+         <p   > TRENDY </p>
+         <p face="" class="best-services" > Our Trending Tour <br> Packages  </p>
+        
+      </h1>
+      <br>
+      <div class="service-cards">
+         <div class="guided_tours-1">
+            <img src="images/packages/switzerland.png" class="service-images" width="250" height="200" />
+            <div class="swiss-info">
+               <div class="days-people-info">
+                  <img src="images/icons/calendar.png" width="30" height="30"/>
+                  <p class="days-info">8 Days</p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="images/icons/person.png" width="30" height="30"/>
+                  <p class="people-info">25 People Going</p>
+               </div>
+               <div class="days-people-info">
+                  <p class="swiss-title">Switzerland</p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="images/icons/rating.png" width="60" height="25"/>
+               </div>
+               <div class="days-people-info">
+                  <img src="images/icons/location.png" width="30" height="25"/>
+                  <p class="days-info">Europe</p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               </div>
+               <div class="amount-place-info">
+                  &nbsp;&nbsp;
+                  <p class="amount-info"> 1,000 $ </p>
+                  &nbsp;&nbsp;
+                  <p class="amount-info-del">1,200 $</p>
+               </div>
+               <br>
+               <p class="content-tours-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nesciunt praesentium, soluta assumenda commodi, volupdqaz 
+                  nostrum mollitia beatae nisi, possimus dolore laborum ad 
+                  suscipit fugiat quzz.  
+               </p>
+               <br>
+               <input type="button" value="Explore Now" id="subscribe-button" class="action_btn_3">
+            </div>
+         </div>
+         <div class="service-cards">
+            <div class="guided_tours-1">
+               <img src="images/packages/amazon.png" class="service-images" width="250" height="200" />
+               <div class="swiss-info">
+                  <div class="days-people-info">
+                     <img src="images/icons/calendar.png" width="30" height="30"/>
+                     <p class="days-info">8 Days</p>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <img src="images/icons/person.png" width="30" height="30"/>
+                     <p class="people-info">30 People Going</p>
+                  </div>
+                  <div class="days-people-info">
+                     <p class="swiss-title">Amazon</p>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <img src="images/icons/rating.png" width="60" height="25"/>
+                  </div>
+                  <div class="days-people-info">
+                     <img src="images/icons/location.png" width="30" height="25"/>
+                     <p class="days-info">Brazil</p>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </div>
+                  <div class="amount-place-info">
+                     &nbsp;&nbsp;
+                     <p class="amount-info"> 1,223 $ </p>
+                     &nbsp;&nbsp;
+                     <p class="amount-info-del">1,200 $</p>
+                  </div>
+                  <br>
+                  <p class="content-tours-1">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Nesciunt praesentium, soluta assumenda commodi, volupdqaz 
+                     nostrum mollitia beatae nisi, possimus dolore laborum ad 
+                     suscipit fugiat quzz.  
+                  </p>
+                  <br>
+                  <input type="button" value="Explore Now" id="subscribe-button" class="action_btn_3">
+               </div>
+            </div>
+            <div class="service-cards">
+               <div class="guided_tours-1">
+                  <img src="images/packages/giza.png" class="service-images" width="250" height="200" />
+                  <div class="swiss-info">
+                     <div class="days-people-info">
+                        <img src="images/icons/calendar.png" width="30" height="30"/>
+                        <p class="days-info">8 Days</p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/icons/person.png" width="30" height="30"/>
+                        <p class="people-info">155 People Going</p>
+                     </div>
+                     <div class="days-people-info">
+                        <p class="swiss-title">Giza</p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/icons/rating.png" width="60" height="25"/>
+                     </div>
+                     <div class="days-people-info">
+                        <img src="images/icons/location.png" width="30" height="25"/>
+                        <p class="days-info">Egypt</p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     </div>
+                     <div class="amount-place-info">
+                        &nbsp;&nbsp;
+                        <p class="amount-info"> 1,200 $ </p>
+                        &nbsp;&nbsp;
+                        <p class="amount-info-del">1,200 $</p>
+                     </div>
+                     <br>
+                     <p class="content-tours-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nesciunt praesentium, soluta assumenda commodi, volupdqaz 
+                        nostrum mollitia beatae nisi, possimus dolore laborum ad 
+                        suscipit fugiat quzz.  
+                     </p>
+                     <br>
+                     <input type="button" value="Explore Now" id="subscribe-button" class="action_btn_3">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!--end-->
+      <br><br>
+      <div class="clients-banner">
+        <div class="category_services1">
+          <br><br>
+          <h1 class="category-headings">
+             <p   > PROMOTION </p>
+             
+             <p face="" class="best-services" > See What Our Clients Say <br> About Us </p>
+          
+          </h1>
+          <br><br>
+          <div class="clients-msg">
+               <img  class="client-face" src="images/icons/face.png" alt="client-pic" height="130" width="140">
+              
+              
+               <a href="#" class="previous round">&#8249;</a>
+               <a href="#" class="next round">&#8250;</a>
+               <p class="client-msg-p"><b>"</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ratione eos quisquam facere est, iste temporibus magni? 
+                 Labore tempora sequi iusto, consectetur itaque, iste
+                  accusamus blanditiis amet et, doloribus voluptatibus
+                   quisquam molestiae error molestias vitae exercitationem! 
+                   Repellendus voluptatibus eum dolorum inventore placeat<b>"</b>
+                  </p>
+                  <p class="client-name">Ms. Lorem
+                     </p>
+          </div>
+       </div>
+      </div>
+      <!--Footer section -->
+      <div class="footer">
+
+        
+          <div class="content1">
+            <img
+            src="https://img.freepik.com/premium-vector/travel-time-logo-template-design_20029-667.jpg"
+            alt="Official logo"
+            width="150px"
+            height="120px"
+            />
+            <p class="footer-moto">Travel helps companies <br>manage payments easily.</p>
+<br>
+            <img src="images/logos/social/fb.png" width="38" height="38"> &nbsp;&nbsp;
+            <img src="images/logos/social/linkedln.png" width="38" height="38">&nbsp;&nbsp;
+            <img src="images/logos/social/meta.jpeg" width="35" height="35">&nbsp;&nbsp;
+            <img src="images/logos/social/twitter.png" width="32" height="32">&nbsp;&nbsp;
+
+
+          </div>
+          <div class="content1">
+            <br><br>
+            <p class="heading-p"> Company </p><br><br>
+            <p class="heading-p1">About Us</p> 
+            <p class="heading-p1">Careers</p> 
+            <p class="heading-p1">Blog</p> 
+            <p class="heading-p1">Pricing</p> 
+
+          </div>
+          <div class="content1">
+            <br><br>
+            <p class="heading-p"> Destinations </p><br><br>
+            <p class="heading-p1">Maldives</p> 
+            <p class="heading-p1">Los Angelas</p> 
+            <p class="heading-p1">Las Vegas</p> 
+            <p class="heading-p1">Torronto</p> 
+          </div>
+          <div class="content1">
+            <br><br>
+            <p class="heading-p"> Join Our Newsletter </p><br><br>
+            <input class="email_class" type="email"  value="" placeholder="Your email address?" > &nbsp;<input type="button" value="Subscribe" id="" class="action_btn_4">
+            <br><br> <p class="footer-moto">*Will send you weekly updates for your better<br>tour packages.</p>
+          </div>
+    
+
+      </div>
+<br>
+
+<!--Footer section end -->
+
+<!--Copyrights section  -->
+      <div class="copyright"><p>Copyright @Xpro 2022. All Rights Reserved</p></div>
+
+<!--Copyrights section end -->
+   </body>
+</html>
