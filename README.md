@@ -2,8 +2,6 @@
 
 A brief description of what this project does and who it's for
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V7YxIrnS)
-
 # Read me
 
 The goal of this assignment is to learn about CSS positioning, Grid layout & Flexbox, and SCSS features like variables, mixins, inheritance, control statements, functions, operators, etc.
